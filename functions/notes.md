@@ -41,3 +41,14 @@ public static void test(){
 PSVM(String[] args){  
     test() ---> Function calling  
 }  
+
+## Regulations
+- function name should indiacte the operation
+- be careful about local variable
+
+## Local Variable:
+------------------
+A variable declare inside the function body 
+
+### Q what is the scope of Local variable?
+The scope is limited to function body,meaning it cannot be access outside the function body 
