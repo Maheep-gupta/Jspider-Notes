@@ -19,7 +19,7 @@
 1.Method Declarartion
 2.Method body
 
-
+## Questions
  Q. How to define a function?
  Ans. follow the syntax
 
@@ -32,7 +32,7 @@ Ans. anywhere inside tthe class body,before main method or after main mehod
  Q. How to call a function?
  Ans. functionName(); --> function calling statement
 
-# e.g
+## e.g
 // function declaration
 public static void test(){
     SOP("Function run");
