@@ -20,15 +20,24 @@
 2.Method body
 
 
-### Q. How to define a function?
-### Ans. follow the syntax
+ Q. How to define a function?
+ Ans. follow the syntax
 
-### Q. where to define the function?
-### Ans. anywhere inside tthe class body,before main method or after main mehod
+ Q. where to define the function?
+Ans. anywhere inside tthe class body,before main method or after main mehod
 
-### Q. How to execute the function?
-### Ans. call the function
+ Q. How to execute the function?
+ Ans. call the function
 
-### Q. How to call a function?
-### Ans. functionName(); --> function calling statement
+ Q. How to call a function?
+ Ans. functionName(); --> function calling statement
 
+# e.g
+// function declaration
+public static void test(){
+    SOP("Function run");
+}
+
+PSVM(String[] args){
+    test() ---> Function calling
+}
