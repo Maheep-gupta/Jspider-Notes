@@ -18,3 +18,17 @@
 ## Method/Function has 2 parts
 1.Method Declarartion
 2.Method body
+
+
+### Q. How to define a function?
+### Ans. follow the syntax
+
+### Q. where to define the function?
+### Ans. anywhere inside tthe class body,before main method or after main mehod
+
+### Q. How to execute the function?
+### Ans. call the function
+
+### Q. How to call a function?
+### Ans. functionName(); --> function calling statement
+
