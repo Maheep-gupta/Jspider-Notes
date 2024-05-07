@@ -1,4 +1,4 @@
-public class Area {
+class Area {
     public static void CalculateAreaOfTriangle() {
         double base = 10;
         double height = 22;
