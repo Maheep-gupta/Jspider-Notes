@@ -1,15 +1,15 @@
-# chmod (chnage mode) - to change the access of a file or folder
+# chmod (change mode) - to change the access of a file or folder
 -------------------------------------------------
 
 there are 3types of user   
-- 1.user    
-- 2.group  
-- 3.other  
+ 1. user    
+ 2. group  
+ 3. other  
 
 ## To know the permission alloted to user we use command
 ls -l  
 
-## everyone has permission to work on linux like  
+## Everyone has permission to work on linux like  
 user has rwx  
 group has x  
 other has x  
