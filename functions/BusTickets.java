@@ -1,4 +1,3 @@
-
 // Criteria
 /*
 if male is travelling then charges will be 5/km
@@ -17,6 +16,6 @@ public class BusTickets {
     }
 
     public static void main(String[] args) {
-        generateBusticket('m', 5);
+        generateBusticket('f', 5);
     }
 }
