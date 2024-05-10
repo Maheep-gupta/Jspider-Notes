@@ -52,3 +52,37 @@ A variable declare inside the function body
 
 ### Q what is the scope of Local variable?
 The scope is limited to function body,meaning it cannot be access outside the function body   
+
+
+## Function Return Type
+ The function return type indicates the type of value returned by the function
+## return statement 
+This is used to return thr value to the caller function
+
+### Syntax
+return value;
+
+### e.g.
+1. 
+public static void f1(){  
+
+    return ;  
+}  
+
+the function returns nothing  
+2.  
+public static int f1(){  
+    ---  
+    ---  
+    return int value;   
+}  
+3. 
+public static String f1(){  
+    ----  
+    ---  
+    return String Value;  
+}  
+
+- if we haven't given the return type then it shows the <b> error : missing return type</b>
+- if we have given int the return type and we are returning the float value then it gives <b>error :
+ type mismatch or not compatible</b>
