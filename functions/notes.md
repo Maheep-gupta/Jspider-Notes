@@ -86,3 +86,4 @@ public static String f1(){
 - if we haven't given the return type then it shows the <b> error : missing return type</b>
 - if we have given int the return type and we are returning the float value then it gives <b>error :
  type mismatch or not compatible</b>
+- we can call a function inside an expression, if it is returning some value,e.g  <b>int res=squar(a)+square(b)</b>
