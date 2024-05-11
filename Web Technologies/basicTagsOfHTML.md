@@ -31,3 +31,19 @@
         <b>Addresing the Image</b>
              - if we have the image and HTML file inside a same folder then  we address the image by saying the prefix starting from './imageName'  
              - if the html file is present in one folder and the image is present outside the current folder  then we use prefix starting from '../imageName'
+
+# Character formatting Tags
+    In HTML we can modify the normal text into a formatted text which changes in style ,size,boldness  
+    The tags are:- 
+        1. <b></b> :- 
+            - It is used to make the text bold
+            - Bold tag using b may have some limitations compare to latest technologies like auto generated text so on..    
+            - To overcome this limitations , we use strong tag "<strong></strong>" instead of b tag  
+            - It is used to create a bold text which is similar to b tag but supports latest technologies  
+        2. <i></i> :- 
+            - It is used to make the text italic.
+            - <em></em>  stands for emphasised tag   
+            - em tag is used as a alternative for i tag to create an italic formatted text
+        3. <u></u> :-
+            - It is used to create an line under the text.   
+## Size 

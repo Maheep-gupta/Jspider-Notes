@@ -1,4 +1,4 @@
-public class returnArray {
+public class reverseArray {
     public static int[] reverseArray(int[] array) {
         int[] reverseArray = new int[5];
         int j = 0;
@@ -16,6 +16,5 @@ public class returnArray {
         for (int i = 0; i < returnedArray.length; i++) {
             System.out.println(returnedArray[i]);
         }
-        // System.out.println(reverseArray(arr));
     }
 }
