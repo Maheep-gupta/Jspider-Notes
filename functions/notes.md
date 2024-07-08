@@ -65,10 +65,8 @@ return value;
 ### e.g.
 1. 
 public static void f1(){  
-
-    return ;  
+    return '' ;  
 }  
-
 the function returns nothing  
 2.  
 public static int f1(){  
@@ -84,6 +82,7 @@ public static String f1(){
 }  
 
 - if we haven't given the return type then it shows the <b> error : missing return type</b>
-- if we have given int the return type and we are returning the float value then it gives <b>error :
+- if we have given int the return type, and we are returning the float value then it gives <b>error :
  type mismatch or not compatible</b>
 - we can call a function inside an expression, if it is returning some value,e.g  <b>int res=squar(a)+square(b)</b>
+- we shouldn't write anything after the return statement since the control will never go to that statement, and it will cause error and that code will become an unreachable code.

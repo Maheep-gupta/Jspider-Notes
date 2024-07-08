@@ -1,11 +1,10 @@
 public class reverseArray {
     public static int[] reverseArray(int[] array) {
-        int[] reverseArray = new int[5];
-        int j = 0;
-        for (int i = array.length - 1; i >= 0; i--) {
+        int[] reverseArray = new int[array.length];
+        // int j = 0;
+        for (int i = array.length - 1,j=0; i >= 0; i--,j++) {
             reverseArray[j] = array[i];
-            j++;
-            // System.out.println(array[i]);
+            // j++;
         }
         return reverseArray;
     }

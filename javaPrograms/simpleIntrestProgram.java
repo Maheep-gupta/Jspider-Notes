@@ -1,4 +1,4 @@
-class simpleIntrest {
+class simpleIntrestProgram {
     public static void main(String[] args) {
         double principle = 10000;
         double rate = 5;
