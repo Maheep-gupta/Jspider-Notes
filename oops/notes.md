@@ -42,3 +42,16 @@ return tot_price;
 <b> In Object oriented programming</b>  
 we need to know price of what
 price is 50, when for whom the price is 50 and that who is known as Entity and the price is known as its Attribute and 50,0 will be its value
+## Java Type Program or Definition Block
+1. Class Type  
+     class Classname{  
+         ----- 
+}
+2. enum type
+   enum Enaum name {
+      ------   }
+3. Interface type 
+   interface interfacename{ -------- }
+4. Annotation type
+      @interface AnnotationName{ -----
+}
