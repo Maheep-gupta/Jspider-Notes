@@ -1,17 +1,19 @@
 # Forms In HTML
 - Forms are used to create a structure in HTML i.e. responsible to collect the data from the users.
-- In a Web page we have two types of pages 
-    1. Static Page 
-    2. Dynamic page
-<b> Difference between static webpage and Dynamic Webpage</b>  
-  `Static Webpage:`
+  - In a Web page we have two types of pages 
+      1. Static Page 
+      2. Dynamic page
+  <b> Difference between static webpage and Dynamic Webpage</b>  
+    
+`Static Webpage:`
   - it is a webpage where user can only view the data that is already present in the document.
   - Using static webpage user will not have control to update the existing data or to remove any content from the webPage. 
-  - eg. Portfolio website , Cooking Blogs,Wikipedia  
-  `Dynamic Webpage:`
-  - In this user will have access to view , update,create,delete the data from the webpage.
-  - Using dynamic Webpage user can directly interact with the server
-  - eg. facebook login Page, amazon signage etc.
+- eg. Portfolio website , Cooking Blogs,Wikipedia  
+`Dynamic Webpage:`
+- In this user will have access to view , update,create,delete the data from the webpage.
+- Using dynamic Webpage user can directly interact with the server
+- eg. facebook login Page, amazon signup page etc.
+- 
 - `< form>` tag is used to create a layout of a form
   -   for tag is reponsible to commumicate with the user
   - form tage has a property known as action i.e. used to specify the dynamic operation of a form
