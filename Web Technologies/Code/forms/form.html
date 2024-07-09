@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="name">Name
+            <input type="text" placeholder="Enter your Name" required id="name">
+        </label><br>
+        <label for="DOB">DOB
+            <input type="date" id="DOB">
+        </label><br>
+        <label for="TOR">Time of registration
+            <input type="datetime-local" name="TOR" id="TOR">
+        </label><br>
+        <label for="email">Email:
+            <input type="email" name="email" id="email">
+        </label><br>
+        <label for="password">Password:
+            <input type="password" id="password" name="password">
+        </label><br>
+        <label for="qty">Quantity
+            <input type="number">
+        </label><br>
+        <label for="submit">
+            <input type="submit" value="Submit">
+        </label><br>
+        <label for="phone">Phone:
+            <input type="tel" pattern="[0-9]{10}" name="phone" id="phone">
+        </label><br>
+        <label for="male">
+            <input type="radio" name="gender" id="male"> Male
+        </label><br>
+        <label for="female">
+
+            <input type="radio" name="gender" id="female">Female
+        </label><br>
+        <label for="other">
+            <input type="radio" name="gender" id="other">Other
+        </label><br>
+        <label for="address">
+            Address:
+            <textarea cols="20" rows="5" name="address" id="address"></textarea>
+        </label><br>
+        <label for="course">
+            Course:
+            <select name="course" id="course">
+                <option value="">Choose the Course</option>
+                <option value="java">Java</option>
+                <option value="sql">SQL</option>
+                <option value="web">WEB</option>
+            </select>
+        </label><br>
+        <label for="url">URL:
+            <input type="url" name="url" id="url">
+        </label><br>
+        <label for="uploadFile">
+            Upload file:
+            <input type="file" accept=".pdf" name="uploadFile" id="uploadFile">
+        </label><br>
+        <label for="AL">AL
+            <input type="checkbox" id="AL">
+        </label><br>
+        
+        <label for="RC">RC
+            <input type="checkbox" id="RC">
+        </label><br>
+        
+        <label for="MC">MC
+            <input type="checkbox" id="MC">
+        </label><br>
+        <label for="reset">
+            <input type="reset" value="reset">
+        </label>
+        <button type="button">Login</button>
+    </form>
+
+</body>
+
+</html>
