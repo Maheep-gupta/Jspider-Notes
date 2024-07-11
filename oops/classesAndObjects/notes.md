@@ -74,3 +74,5 @@
          }
 ### Notes
 - Member of one class can be accessed in another class by using dot(.) operator
+  - Static variables can be reinitialized.   
+  j
