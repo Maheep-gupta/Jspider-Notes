@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    color: white;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section {
+    height: 100vh;
+}
+nav{
+    color: #fff;
+    position: fixed;
+    top: 0;
+    text-transform: capitalize;
+    background-color: rgb(0, 0, 0,0.09);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+ul{
+    display: flex;
+    /* justify-content: space-between; */
+    font-size: 21px;
+    font-family: "Open Sans", Arial, sans-serif;
+    align-items: center;
+    list-style-type: none;
+    padding: 20px;
+    gap: 20px;
+}
+li.active{
+    color: #e06464;
+}
+li select{
+    background-color: inherit;
+    border: 0;
+    outline: 0;
+    font-size: 21px;
+    color: #fff;
+}
+.hero-section {
+    background: url('./Images//section-1Bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.quality-awards {
+    background: url('./Images//section-2bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 69px;
+    padding-right: 0px;
+    padding-bottom: 114px;
+    padding-left: 0px;
+    color: #fff;
+
+}
+
+.contact-section {
+    background: url('./Images//section-4bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.quality-awards .title {
+    color: #a50018;
+    font-size: 23px;
+}
+
+.desc {
+    color: white;
+    text-align: justify;
+    font-size: 21px;
+}
+
+.quality-awards div,
+.flavours-stores-franchise-cards .cards div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    color: white;
+}
+
+.quality {
+    margin-right: 60px;
+}
+
+.awards {
+    margin-left: 60px;
+}
+
+.quality-awards div div img {
+    padding-bottom: 10px;
+}
+
+.quality-awards div div p {
+    padding-bottom: 10px;
+}
+
+.flavours-stores-franchise-cards {
+    background: url('./Images//section-3bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+
+.cards {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.cards>div {
+    width: 340px;
+    height: 500px;
+    padding-top: 120px;
+    padding-right: 10px;
+    padding-bottom: 150px;
+    padding-left: 10px;
+}
+
+.cards div p {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.cards div h1 {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.flavours {
+    background: url("./Images/Flavours.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.stores {
+    background: url("./Images/Stores.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.franchise {
+    background: url("./Images/Franchise.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    height: 100%;
+}
+
+.container {
+    width: 1060px;
+    padding: 20px;
+    height: 100%;
+}
+
+.container h1 {
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.container form input, .container form textarea {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    color: #999;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color:#fff;
+    outline: none;
+    font-size: 14px;
+}
+
+input::placeholder,textarea::placeholder {
+    font-family: "Satisfy", cursive;
+    color:#fff;
+
+    
+}
+textarea{
+     min-height: 150px;
+    width: 100%;
+    color: white;
+
+}
+.form
+{
+    height: 100%;
+}
+form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.btn-div{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.btn{
+    color: #edf000;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid #edf000;
+    border-radius: 5px;
+    padding:10px 25px;
+    font-size: 20px;
+}
+.main-footer{
+    background-color: #222;
+}
+.footer-widgets{
+    padding: 6% 0 0;
+    display: flex;
+
+}
+.footer-widget{
+    width: 30%;
+    margin: 0 5.5% 5.5% 0;
+}
+.footer-bottom{
+    padding: 15px 0 5px;
+    background-color: #1f1f1f;
+    background-color: rgba(0, 0, 0, .32);
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+    text-align: left;
+    align-items: center;
+}
+.footer-info{
+    padding-bottom: 10px;
+    color: #666;
+    text-align: left;
+    font-size: 21px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.textwidget{
+    font-size: 21px;
+    line-height: 35px;
+}
+.social-icons{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.icon svg{
+    height:24px;
+    width: 24px;
+}
+ul{
+    list-style: none;
+}
+.footer-widget .title{
+    font-size: 18px;
+    color: #7cda24;
+}
+.email-span{
+    margin-bottom: 20px;
+}

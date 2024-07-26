@@ -1,0 +1,46 @@
+body {
+    /* color: white; */
+    /* background-image: url(https://imgs.search.brave.com/ulsFdjvQFjQzMc9xanptGS8Aa_1i4jKbcilRDpNF3z0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQva2ltZXRzdS1u/by15YWliYS1waWN0/dXJlcy1la3lwbWhl/c2EzZ2hqdzlyLmpw/Zw); */
+    background-repeat: no-repeat;
+    /* background-repeat: repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+    /* background-position: center; */
+    /* background-position: top;
+    background-position: bottom; */
+    /* background-size: contain; */
+    background-size: cover;
+
+}
+
+/* h2 {
+    background-color: orange;
+    color: aliceblue;
+}
+
+b {
+    background-color: seashell;
+    color: magenta;
+} */
+
+/* button {
+    height: 100px;
+    width: 300px;
+    background: linear-gradient(to right,
+            red,
+            orange,
+            yellow,
+            green,
+            blue,
+            indigo,
+            violet);
+    background: radial-gradient(
+            red,
+            orange,
+            yellow,
+            green,
+            blue,
+            indigo,
+            violet);
+} */
+

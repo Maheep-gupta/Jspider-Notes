@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ball Game</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center
+        }
+
+        .frame {
+            width: 95vw;
+            border-bottom: 2px solid black;
+            position: absolute;
+            ;
+            bottom: 20px;
+
+        }
+
+        .ball {
+            height: 50px;
+            width: 50px;
+            border-radius: 100%;
+            border: 2px solid black;
+            position: relative;
+            transition: 0.5s;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="frame">
+            <div id="ball" class="ball">
+
+            </div>
+        </div>
+    </div>
+    <script>
+        const ball = document.getElementById("ball")
+
+        window.addEventListener("keydown", (event) => {
+            console.log(event.code);
+            let gameStarted = false;
+            let xAxis = 10;
+            let yAxis = 50;
+            if (event.code === "Enter") {
+                gameStarted = true;
+            }
+            if (event.code === "KeyW") {
+                xAxis = 0;
+                console.log(yAxis);
+                ball.style.transform = `translate(${xAxis},-${yAxis}px)`
+            }
+            else if (event.code === "KeyD") {
+                console.log(xAxis);
+                console.log(yAxis);
+                ball.style.transform = `translate(${xAxis}px,-${yAxis}px)`
+                
+            }
+
+
+
+
+        })
+        // window.addEventListener("keyup", (e) => {
+        //     ball.style.transform = "translate(0,0)"
+        // })
+    </script>
+</body>
+
+</html>

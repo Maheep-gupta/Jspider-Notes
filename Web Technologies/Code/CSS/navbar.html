@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        nav {
+            height: 100px;
+        }
+
+        .partition-1 {
+            background-color: #212121;
+            display: flex;
+            height: 50%;
+            justify-content: space-around;
+        }
+
+        .partition-2 {
+            background:linear-gradient(to right,#D3CCF6,white,#9C91F5);
+            display: flex;
+            height: 50%;
+            justify-content: space-around;
+        }
+        .partition-2 div{
+            display: flex;
+            align-items: center;
+        }
+        .list1, .list2{
+            display: flex;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+        }
+        .list1 ul,.list2 ul{
+            list-style: none;
+            color: white;
+            align-items: center;
+            gap: 22px;
+        }
+        .cart{
+            display: flex;
+            align-items: center;
+            gap: 2px;
+        }
+        .cart img{
+            height: 15px;
+        }
+        .search{
+            gap: 5px;
+        }
+        .list img{
+            height: 30px;
+        }
+        .list ul{
+            gap: 55px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="partition-1 ">
+            <div class="list1">
+                <ul>
+                    <li> Xaomi India</li>
+                    <li> Xaomi India</li>
+                    <li> Xaomi India</li>
+                    <li> Xaomi India</li>
+                    <li> Xaomi India</li>
+                </ul>
+            </div>
+            <div class="list2">
+                <ul>
+                    <li>Sign up</li>
+                    <li>Sign in</li>
+                    <li class="cart"><img src="grocery-store.png" alt="cart"> cart</li>
+                </ul>
+            </div>
+        </div>
+        <div class="partition-2">
+            <div class="list">
+                <img src="https://imgs.search.brave.com/eODrxn2qDSI9WX9JdozNk141tNCU541YqlWXliDlzcU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy94aWFvbWktbG9n/by0yLnN2Zw" alt="">
+                <ul>
+                    <li> Xaomi India</li>
+                    <li> Xaomi India</li>
+                    <li> Xaomi India</li>
+                    <li> Xaomi India</li>
+                    <li> Xaomi India</li>
+                </ul>
+            </div>
+            <div class="search">
+                <input placeholder="search products" type="search">
+                <img src="./magnifying-glass.png" alt="search">
+            </div>
+        </div>
+    </nav>
+</body>
+
+</html>

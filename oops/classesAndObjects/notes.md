@@ -74,5 +74,8 @@
          }
 ### Notes
 - Member of one class can be accessed in another class by using dot(.) operator
-  - Static variables can be reinitialized.   
-  j
+- Static variables can be reinitialized.   
+  
+- One Object can be referenced by multiple reference variables
+- this is possible by:-  
+`demo d1= new Demo();  demo d2=d1;  `

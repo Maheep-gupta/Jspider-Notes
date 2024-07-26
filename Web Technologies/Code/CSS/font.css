@@ -1,0 +1,27 @@
+h2{
+    background-color: orange;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: underline;
+    /* text-decoration: overline;
+    text-decoration: line-through; */
+}
+ h2{
+    /* text-shadow: 100px 0px pink; */
+    text-indent: 10px;
+ }
+
+b {
+    background-color: seashell;
+    color: magenta;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}

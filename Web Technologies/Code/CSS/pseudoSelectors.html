@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selectors</title>
+    <link rel="icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2023.ico">
+    <link rel="stylesheet" href="font.css">
+</head>
+<style>
+    .kgf::first-letter{
+        color: pink;
+    }
+    .d1::first-line{
+        color: grey;
+    }
+    .d2::after{
+        content: " have fun bitches ";
+    }
+    .d3::before{
+        content: "kya be huale ";
+    }
+    input::placeholder{
+        background:red;
+        color: white;
+    }
+</style>
+
+<body>
+    <h1 class="kgf" id="rrr">Welcome To CSS</h1>
+    <p>Eiusmod non ut velit tempor elit dolore incididunt. Ex non eu officia laborum aute dolore nisi fugiat labore
+        adipisicing veniam nisi. Ut sit cillum id minim dolore consequat veniam nostrud id veniam. Minim sint do
+        exercitation anim quis eu est aute.</p>
+    <h2 class="d1">Jspider</h2>
+    <h2 class="d2">Qspider</h2>
+    <h2 class="d3">PySpider</h2>
+    <input type="text" name="" id="" placeholder="laal hai poora thela laal h">
+    <b>Minim officia adipisicing qui irure quis reprehenderit. Anim deserunt reprehenderit minim officia et ut. Anim
+        consectetur eu anim dolor amet. Cillum tempor minim aliquip officia ut culpa eu labore.</b>
+
+    <!-- <a href="">Testing</a>
+    <button onclick="ToggleTheme()">Toggle theme</button>
+    <script>
+        function ToggleTheme() {
+            const body=document.getElementsByTagName('body')[0] 
+            if (body.style.backgroundColor==="rgb(33, 33, 33)") {
+                
+                body.style.backgroundColor="white"
+            }else{
+                body.style.backgroundColor="#212121"
+
+            }
+        }
+    </script> -->
+</body>
+
+</html>
