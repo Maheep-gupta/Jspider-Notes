@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    height: auto;
+    width: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: wheat;
+    border-radius: 20px;
+}
+form label{
+    text-align: left;
+}
+#pswd{
+    display: flex;
+}

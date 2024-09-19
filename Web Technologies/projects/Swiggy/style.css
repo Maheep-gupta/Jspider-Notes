@@ -1,0 +1,154 @@
+body{
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0;
+}
+header{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    box-shadow: 0 15px 40px -20px #282c3f26;
+    z-index: 10;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    text-transform: capitalize;
+    gap: 50px;
+}
+.navbar ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #686b78;
+    font-weight: bold;
+}
+.navbar ul li span:hover{
+    color: orange;
+}
+.navbar ul li span{
+    margin-left: 5px;
+    color: #3d4152;
+    font-weight: 500;
+}
+.navbar sup{
+    color: #ffa700;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.navbar .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+select{
+    border: none;
+    background-color: inherit;
+    outline: none;
+    font-weight: bolder;
+    text-decoration: underline;
+    /* border-bottom: 2px solid; */
+    /* padding-bottom: 5px; */
+    font-size: 14px;
+    line-height: 16.8px;
+    width: 80px;
+}
+.nav-items{
+    padding-right: 30px;
+}
+main{
+    padding: 0px 200px;
+    margin-top: 100px;
+}
+main .marquee img{
+    height: 180px;
+    width: 144px;
+    margin-right: 12px;
+}
+.button-grp{
+    display: flex;
+    gap: 15px;
+}
+.button-grp button{
+    display: flex;
+    align-items: center;
+    background-color: inherit;
+    border: 1px solid #02060c26;
+    border-radius: 18px;
+    padding: 8px 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+    color: #02060cbf;
+    text-transform: capitalize;
+}
+.restaurants{
+    margin: 32px 16px;
+}
+.card{
+    width: 250px;
+}
+.restaurants{
+    display: flex;
+    justify-content: space-between;
+}
+.card-image{
+    border-radius: 16px;
+    height: 200px;
+}
+.card-image img{
+    width: 100%;
+    border-radius: 16px;
+}
+.img-text{
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 22px;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 60px;
+    left: 0px;
+    color: #fff;
+    padding: 17px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    width: inherit;
+    display: block;
+    background: linear-gradient(#1b1e2400 0%, #1b1e24 84.21%);
+}
+.card-body{
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    transition: 0.5s ease-in-out;
+}
+.card-body .title{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.card-body .rating{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+}
+.card-body .circle{
+    height: 1px;
+    width: 1px;
+    border: 2px solid black;
+    border-radius: 100%;
+}
+.card:hover{
+    transform: scale(0.9);
+}

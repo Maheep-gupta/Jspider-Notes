@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+section {
+    background-image: url(../images//image\ 1.avif);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px 0px 40px;
+}
+
+.logo {
+    width: 120px;
+}
+
+.navoptions ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+.navoptions a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+.icons{
+    display: flex;
+    gap: 15px;
+}
+.icons svg{
+    height: 24px;
+    color: #fff;
+}
+section div{
+    color: #fff;
+}
+div h1{
+    font-size: 45px;
+
+}
+.text-image,.image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1,p{
+    margin: 0;
+    padding: 0;
+}
+.text-image{
+    padding-top: 30px;
+    line-height: 40px;
+}
+.text-image p{
+    font-size: 28px;
+    font-weight: 400;
+    text-decoration: underline;
+    display: inline;
+}
+.text-image span{
+    font-weight: 400;
+}
+.image-container{
+    /* position: relative; */
+    justify-content: space-between;
+    height: inherit;
+}
+.image-container footer{
+    position: absolute;
+    bottom: 32px;
+}
+.image-container footer button{
+    height: 40px;
+    width: 264px;
+   padding: 4px 24px;
+   font-size: 14px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   font-weight: 400;
+}
+.image-container footer button:first-child{
+    background-color: #3e6ae1;
+    color: #fff;
+    margin-right: 13px;
+}
+.main-container{
+    height: 85%;
+}

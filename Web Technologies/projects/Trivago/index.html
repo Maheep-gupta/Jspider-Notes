@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trivago.in - Compare hotel prices worldwide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="section-padding">
+
+        <nav>
+            <div class="logo">
+                <a title="trivago logo" aria-label="trivago logo" class="" href="/en-IN"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="114" height="32" viewBox="0 0 114 32"
+                        data-testid="header-hero-logo" class="">
+                        <g clip-path="url(#Logo_default_svg__a)">
+                            <path fill="#E32851"
+                                d="M38.637 7.434h-4.913a.255.255 0 00-.255.255v15.907c0 .14.114.255.255.255h4.913c.14 0 .255-.114.255-.255V7.689a.255.255 0 00-.255-.255z">
+                            </path>
+                            <path fill="#FF932C"
+                                d="M52.833 7.6L49.6 16.21a.057.057 0 01-.107 0L46.231 7.6a.255.255 0 00-.239-.165h-5.37a.255.255 0 00-.237.351l6.46 15.907c.039.096.133.16.236.16h4.724a.255.255 0 00.237-.16L58.53 7.786a.255.255 0 00-.237-.352h-5.222a.255.255 0 00-.239.166z">
+                            </path>
+                            <path fill="#0088D9"
+                                d="M104.344 7.185c-5.126 0-8.86 3.615-8.86 8.476 0 4.86 3.734 8.475 8.86 8.475 5.068 0 8.861-3.645 8.861-8.475 0-4.86-3.764-8.476-8.861-8.476zm0 12.328c-2.015 0-3.348-1.541-3.348-3.853 0-2.31 1.333-3.852 3.348-3.852 1.986 0 3.349 1.54 3.349 3.853 0 2.281-1.363 3.852-3.349 3.852z">
+                            </path>
+                            <path fill="#E32851"
+                                d="M31.673 7.355a2.833 2.833 0 00-.514-.121c-.314-.05-3.647-.424-5.501 2.063-.033.044-.103.02-.103-.034V7.689a.255.255 0 00-.255-.255h-4.913a.255.255 0 00-.255.255v15.907c0 .14.114.255.255.255H25.3a.255.255 0 00.255-.255V17.69c0-4.416 2.044-5.514 4.06-5.514.237 0 .926-.001 1.9.268a.255.255 0 00.322-.245V7.594a.253.253 0 00-.164-.239zM36.18 0c-1.713 0-3.102 1.339-3.102 2.99 0 1.651 1.39 2.99 3.103 2.99 1.713 0 3.102-1.339 3.102-2.99 0-1.651-1.39-2.99-3.102-2.99z">
+                            </path>
+                            <path fill="#FF932C"
+                                d="M75.341 7.434H70.43a.255.255 0 00-.255.255v1.565c0 .06-.083.08-.109.024-1.774-3.717-12.282-2.994-12.282 6.364 0 8.748 8.978 10.306 12.29 6.645.036-.04.1-.015.1.038v1.27c0 .142.115.256.256.256h4.912a.255.255 0 00.256-.255V7.689a.255.255 0 00-.255-.255zM66.77 19.495c-2.164 0-3.672-1.508-3.672-3.836s1.508-3.869 3.672-3.869c2.197 0 3.672 1.574 3.672 3.87 0 2.294-1.475 3.835-3.672 3.835z">
+                            </path>
+                            <path fill="#0088D9"
+                                d="M93.893 7.434h-4.912a.255.255 0 00-.255.255v1.564c0 .062-.083.08-.11.025-1.78-3.764-11.567-2.82-11.567 5.89 0 8.54 8.92 9.243 11.58 6.759a.057.057 0 01.096.042v.769c-.068 3.629-4.614 5.2-6.924 2.443a.255.255 0 00-.334-.05l-4.14 2.677a.257.257 0 00-.066.368c5.283 7.219 16.802 3.548 16.887-5.422V7.69a.255.255 0 00-.255-.255zm-8.101 11.201c-1.956 0-3.32-1.363-3.32-3.466 0-2.104 1.364-3.497 3.32-3.497 1.985 0 3.318 1.422 3.318 3.497 0 2.074-1.333 3.466-3.318 3.466z">
+                            </path>
+                            <path fill="#E32851"
+                                d="M18.424 14.867h-4.92a.26.26 0 00-.254.237 3.92 3.92 0 01-3.907 3.61c-2.472 0-3.472-2.1-3.472-2.1a3.923 3.923 0 01-.448-1.749c0-.02.011-.04.03-.05l1.407-.777 8.894-4.919a.425.425 0 00.22-.372V3.46a.255.255 0 00-.38-.224L5.509 8.814a.057.057 0 01-.086-.05V.452a.255.255 0 00-.394-.214L.194 3.368A.425.425 0 000 3.727v11.14a9.343 9.343 0 0018.68.268.257.257 0 00-.256-.268z">
+                            </path>
+                        </g>
+                        <defs>
+                            <clipPath id="Logo_default_svg__a">
+                                <path fill="#fff" d="M0 0h113.205v32H0z"></path>
+                            </clipPath>
+                        </defs>
+                    </svg></a>
+            </div>
+            <div class="nav-items">
+                <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        class="Icon_icon__1R9KC">
+                        <path
+                            d="M20.42 4.82A5.23 5.23 0 0016.5 3 5.37 5.37 0 0012 5.58 5.37 5.37 0 007.5 3a5.23 5.23 0 00-3.92 1.82A6.35 6.35 0 002 9.07v.28c0 5.42 7.25 10.18 9.47 11.51a1 1 0 001 0C14.74 19.53 22 14.77 22 9.35v-.22-.06a6.35 6.35 0 00-1.58-4.25zM21 9.18v.17c0 4.94-7.07 9.5-9 10.65-1.92-1.15-9-5.71-9-10.65v-.17a.41.41 0 000-.11A4.81 4.81 0 017.5 4a4.39 4.39 0 013.66 2.12L12 7.44l.84-1.32A4.39 4.39 0 0116.5 4 4.81 4.81 0 0121 9.07a.41.41 0 000 .11z"
+                            fill="currentColor"></path>
+                    </svg>
+                    Favorites
+                </span>
+                <span><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24"
+                        class="Icon_icon__1R9KC">
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path fill="currentColor"
+                            d="M12 21.5V21v.5c-5.238 0-9.5-4.262-9.5-9.5H3h-.5c0-5.238 4.262-9.5 9.5-9.5V3v-.5c5.238 0 9.5 4.262 9.5 9.5H21h.5c0 5.238-4.262 9.5-9.5 9.5zm-6.389-3.898a8.5 8.5 0 005.09 2.798 15.327 15.327 0 01-2.592-3.943c-1.05.345-1.896.78-2.498 1.145zm10.25-1.078A15.355 15.355 0 0113.3 20.4a8.49 8.49 0 005.061-2.77 15.22 15.22 0 00-2.5-1.107zm-3.361-.655v3.926a14.328 14.328 0 002.394-3.557 12.39 12.39 0 00-2.394-.369zm-3.421.312a14.329 14.329 0 002.421 3.614v-3.938c-.876.026-1.687.148-2.421.324zm7.165-.586c.884.303 1.8.71 2.743 1.241a8.451 8.451 0 001.498-4.336h-3.542a11.783 11.783 0 01-.699 3.095zM3.514 12.5a8.454 8.454 0 001.48 4.308c.645-.4 1.576-.89 2.738-1.28a11.717 11.717 0 01-.676-3.028H3.515zm8.986 2.362c.88.044 1.813.181 2.788.442a10.8 10.8 0 00.652-2.804H12.5v2.362zM8.06 12.5c.086.952.31 1.873.63 2.745a12.903 12.903 0 012.81-.393V12.5H8.06zm8.918-1h3.507a8.443 8.443 0 00-1.484-4.315 13.87 13.87 0 01-2.55 1.207c.337 1.004.514 2.04.527 3.106v.002zm-4.478 0h3.478a9.088 9.088 0 00-.485-2.81c-.9.245-1.904.416-2.993.449V11.5zm-4.479 0H11.5V9.13a13.308 13.308 0 01-2.977-.487 9.094 9.094 0 00-.502 2.857zm-4.506 0H7.02v-.003c.015-1.084.197-2.138.547-3.158a16.469 16.469 0 01-2.555-1.175A8.444 8.444 0 003.515 11.5zM12.5 4.14v4.025c.946-.03 1.825-.173 2.63-.387-.581-1.27-1.459-2.485-2.63-3.638zM8.897 7.72c.909.25 1.778.387 2.603.432V4.14C10.347 5.275 9.48 6.47 8.897 7.72zm4.49-4.107c1.204 1.221 2.107 2.512 2.708 3.865.878-.313 1.645-.7 2.288-1.085a8.498 8.498 0 00-4.995-2.78zM5.64 6.368c.787.436 1.553.78 2.295 1.046.6-1.33 1.494-2.599 2.678-3.8A8.497 8.497 0 005.64 6.367z">
+                        </path>
+                    </svg> EN · ₹</span>
+                <span><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                        class="Icon_icon__1R9KC">
+                        <path fill="transparent" d="M0 0h24v24H0z"></path>
+                        <path
+                            d="M17.129 19.038a5.363 5.363 0 00-1.895-2.87A5.274 5.274 0 0012 15.058c-1.17 0-2.307.39-3.234 1.11a5.362 5.362 0 00-1.895 2.87"
+                            stroke="#0A1121" stroke-linecap="round" stroke-linejoin="round" fill="transparent"></path>
+                        <path d="M21 12C21 0 3 0 3 12s18 12 18 0z" stroke="#0A1121" stroke-linecap="round"
+                            stroke-linejoin="round" fill="transparent"></path>
+                        <path
+                            d="M11.998 12.811c1.939 0 3.03-1.1 3.03-3.058 0-1.957-1.091-3.059-3.03-3.059-1.938 0-3.028 1.102-3.028 3.06 0 1.957 1.09 3.057 3.028 3.057z"
+                            stroke="#0A1121" stroke-linecap="round" stroke-linejoin="round" fill="transparent"></path>
+                    </svg> Log in</span>
+                <span><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                        class="Icon_icon__1R9KC">
+                        <path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-linecap="round"></path>
+                    </svg> Menu</span>
+
+
+            </div>
+        </nav>
+    </header>
+    <section class="search-section section-padding">
+        <main>
+
+            <div>
+                <h1>We compare hotel prices from 100s of sites</h1>
+                <span>We'll do seraching. You do the saving</span>
+            </div>
+            <div class="search-bar">
+                <div class="inputBox">
+                    <span class="svg"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="Icon_icon__1R9KC">
+                            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10"
+                                stroke-width="2">
+                                <path d="M10 3a7 7 0 107 7 7 7 0 00-7-7zM21 21l-6-6" vector-effect="non-scaling-stroke">
+                                </path>
+                            </g>
+                        </svg></span>
+                    <span>
+                        <span class="labels changeText">Hotels</span>
+                        <input class="bold" type="text" placeholder="Where to">
+                    </span>
+                </div>
+                <hr>
+                <div class="dates">
+                    <span class="svg"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="Icon_icon__1R9KC">
+                            <g fill="currentColor">
+                                <path
+                                    d="M19 5h-1a1 1 0 00-2 0H8a1 1 0 00-2 0H5a2 2 0 00-2 2v11a2 2 0 002 2h14a2 2 0 002-2V7a2 2 0 00-2-2zm1 13a1 1 0 01-1 1H5a1 1 0 01-1-1V9h16zm0-10H4V7a1 1 0 011-1h14a1 1 0 011 1z">
+                                </path>
+                                <circle cx="7.5" cy="12.5" r="1.5"></circle>
+                                <path
+                                    d="M19 5h-1a1 1 0 00-2 0H8a1 1 0 00-2 0H5a2 2 0 00-2 2v11a2 2 0 002 2h14a2 2 0 002-2V7a2 2 0 00-2-2zm1 13a1 1 0 01-1 1H5a1 1 0 01-1-1V9h16zm0-10H4V7a1 1 0 011-1h14a1 1 0 011 1z">
+                                </path>
+                                <circle cx="7.5" cy="12.5" r="1.5"></circle>
+                            </g>
+                        </svg></span>
+                    <div class="check">
+                        <div class="checkIn">
+                            <p class="labels">Check in</p>
+                            <p class="bold">-- / -- / ----</p>
+
+                        </div>
+                        <hr>
+                        <div class="checkOut">
+                            <p class="labels">Check out</p>
+                            <p class="bold">-- / -- / ----</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="guests">
+                    <span class="svg">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="Icon_icon__1R9KC">
+                            <g fill="currentColor">
+                                <path
+                                    d="M13.13 12.14a4.5 4.5 0 10-7.26 0A5 5 0 002 17a3 3 0 003 3h9a3 3 0 003-3 5 5 0 00-3.87-4.86zM9.5 6a3.49 3.49 0 012.44 6A3.5 3.5 0 016 9.5 3.5 3.5 0 019.5 6zM14 19H5a2 2 0 01-2-2 4 4 0 013.74-4 4.41 4.41 0 005.52 0A4 4 0 0116 17a2 2 0 01-2 2z">
+                                </path>
+                                <path
+                                    d="M19.31 10.24A3.93 3.93 0 0020 8a4 4 0 00-6.94-2.69 5.87 5.87 0 01.7.71A3 3 0 1116 11a2.91 2.91 0 01-1.15-.23v.11a4.5 4.5 0 01-.28.83A4 4 0 0016 12a3.94 3.94 0 002.55-.94A3 3 0 0121 14a1 1 0 01-1 1h-2.35a6.67 6.67 0 01.26 1H20a2 2 0 002-2 4 4 0 00-2.69-3.76z">
+                                </path>
+                            </g>
+                        </svg> </span>
+                    <span>
+                        <p class="labels">Guest and rooms</p>
+                        <p class="bold">2 Guests, 1 Room</p>
+                    </span>
+                </div>
+                <div class="btn">
+                    <button>Search</button>
+                </div>
+            </div>
+        </main>
+        <div class="partners">
+            <span>
+                <img src="	https://imgcy.trivago.com/image/upload/hardcodedimages/mpm-localised-logos-dark/395.png"
+                    alt="">
+            </span>
+            <span>
+                <img src="https://imgcy.trivago.com/image/upload/hardcodedimages/mpm-localised-logos-dark/3340.png"
+                    alt="">
+            </span>
+            <span>
+                <img src="https://imgcy.trivago.com/image/upload/hardcodedimages/mpm-localised-logos-dark/626.png"
+                    alt="">
+            </span>
+            <span>
+                <img src="https://imgcy.trivago.com/image/upload/hardcodedimages/mpm-localised-logos-dark/2192.png"
+                    alt="">
+            </span>
+            <span>
+                <img src="https://imgcy.trivago.com/image/upload/hardcodedimages/mpm-localised-logos-dark/14.png"
+                    alt="">
+            </span>
+            <span>
+                <img src="https://imgcy.trivago.com/image/upload/hardcodedimages/mpm-localised-logos-dark/634.png"
+                    alt="">
+            </span>
+            <span>
+                <img src="https://imgcy.trivago.com/image/upload/hardcodedimages/mpm-localised-logos-dark/2452.png"
+                    alt="">
+            </span>
+            <span class="labels">
+                +100s more
+            </span>
+
+
+        </div>
+    </section>
+    <section class="section-padding bg-image-section">
+
+        <div class="image-hai">
+            <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_380,q_45,w_980/categoryimages/64/98/64981_v33.jpeg"
+                alt="">
+        </div>
+
+        <div class="table-content">
+            <h2>Discover the best time to book your next stay</h2>
+            <div class="price-calender">
+                <div class="locations">
+                    <div class="loc selected">Mumbai</div>
+                    <div class="loc">Mumbai</div>
+                    <div class="loc">Mumbai</div>
+                    <div class="loc">Mumbai</div>
+                    <div class="loc">Mumbai</div>
+                    <div class="loc">Mumbai</div>
+                    <div class="loc">Mumbai</div>
+                    <div class="loc">Mumbai</div>
+                </div>
+
+                <p class="labels">Prices are based on the average price range for 3-star hotels per night.
+
+
+                </p>
+                <div class="multi-cols">
+                    <div class="col-1">
+                        <button class="monthList selectedButton">
+                            <span class="month">September</span>
+                            <span class="earning">
+                                <span>₹2,430 - ₹9,060</span>
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        class="Icon_icon__1R9KC">
+                                        <g fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-miterlimit="10" stroke-width="2">
+                                            <path vector-effect="non-scaling-stroke" d="M10 17l5-5M10 7l5 5"></path>
+                                        </g>
+                                    </svg></span>
+                            </span>
+                        </button>
+
+                        <button class="monthList">
+                            <span class="month">September</span>
+                            <span class="earning">
+                                <span>₹2,430 - ₹9,060</span>
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        class="Icon_icon__1R9KC">
+                                        <g fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-miterlimit="10" stroke-width="2">
+                                            <path vector-effect="non-scaling-stroke" d="M10 17l5-5M10 7l5 5"></path>
+                                        </g>
+                                    </svg></span>
+                            </span>
+                        </button>
+                        <button class="monthList">
+                            <span class="month">September</span>
+                            <span class="earning">
+                                <span>₹2,430 - ₹9,060</span>
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        class="Icon_icon__1R9KC">
+                                        <g fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-miterlimit="10" stroke-width="2">
+                                            <path vector-effect="non-scaling-stroke" d="M10 17l5-5M10 7l5 5"></path>
+                                        </g>
+                                    </svg></span>
+                            </span>
+                        </button>
+                        <button class="monthList">
+                            <span class="month">September</span>
+                            <span class="earning">
+                                <span>₹2,430 - ₹9,060</span>
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        class="Icon_icon__1R9KC">
+                                        <g fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-miterlimit="10" stroke-width="2">
+                                            <path vector-effect="non-scaling-stroke" d="M10 17l5-5M10 7l5 5"></path>
+                                        </g>
+                                    </svg></span>
+                            </span>
+                        </button>
+                        <button class="monthList">
+                            <span class="month">September</span>
+                            <span class="earning">
+                                <span>₹2,430 - ₹9,060</span>
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        class="Icon_icon__1R9KC">
+                                        <g fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-miterlimit="10" stroke-width="2">
+                                            <path vector-effect="non-scaling-stroke" d="M10 17l5-5M10 7l5 5"></path>
+                                        </g>
+                                    </svg></span>
+                            </span>
+                        </button>
+                        <button class="monthList">
+                            <span class="month">September</span>
+                            <span class="earning">
+                                <span>₹2,430 - ₹9,060</span>
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        class="Icon_icon__1R9KC">
+                                        <g fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-miterlimit="10" stroke-width="2">
+                                            <path vector-effect="non-scaling-stroke" d="M10 17l5-5M10 7l5 5"></path>
+                                        </g>
+                                    </svg></span>
+                            </span>
+                        </button>
+
+
+                    </div>
+                    <div class="col-2">
+                        <button class="monthList">
+                            <span class="month">September</span>
+                            <span class="earning">
+                                <span>₹2,430 - ₹9,060</span>
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        class="Icon_icon__1R9KC">
+                                        <g fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-miterlimit="10" stroke-width="2">
+                                            <path vector-effect="non-scaling-stroke" d="M10 17l5-5M10 7l5 5"></path>
+                                        </g>
+                                    </svg></span>
+                            </span>
+                        </button>
+
+                        <button class="monthList">
+                            <span class="month">September</span>
+                            <span class="earning">
+                                <span>₹2,430 - ₹9,060</span>
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        class="Icon_icon__1R9KC">
+                                        <g fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-miterlimit="10" stroke-width="2">
+                                            <path vector-effect="non-scaling-stroke" d="M10 17l5-5M10 7l5 5"></path>
+                                        </g>
+                                    </svg></span>
+                            </span>
+                        </button>
+                        <button class="monthList">
+                            <span class="month">September</span>
+                            <span class="earning">
+                                <span>₹2,430 - ₹9,060</span>
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        class="Icon_icon__1R9KC">
+                                        <g fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-miterlimit="10" stroke-width="2">
+                                            <path vector-effect="non-scaling-stroke" d="M10 17l5-5M10 7l5 5"></path>
+                                        </g>
+                                    </svg></span>
+                            </span>
+                        </button>
+                        <button class="monthList">
+                            <span class="month">September</span>
+                            <span class="earning">
+                                <span>₹2,430 - ₹9,060</span>
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        class="Icon_icon__1R9KC">
+                                        <g fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-miterlimit="10" stroke-width="2">
+                                            <path vector-effect="non-scaling-stroke" d="M10 17l5-5M10 7l5 5"></path>
+                                        </g>
+                                    </svg></span>
+                            </span>
+                        </button>
+                        <button class="monthList">
+                            <span class="month">September</span>
+                            <span class="earning">
+                                <span>₹2,430 - ₹9,060</span>
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        class="Icon_icon__1R9KC">
+                                        <g fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-miterlimit="10" stroke-width="2">
+                                            <path vector-effect="non-scaling-stroke" d="M10 17l5-5M10 7l5 5"></path>
+                                        </g>
+                                    </svg></span>
+                            </span>
+                        </button>
+                        <button class="monthList">
+                            <span class="month">September</span>
+                            <span class="earning">
+                                <span>₹2,430 - ₹9,060</span>
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        class="Icon_icon__1R9KC">
+                                        <g fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-miterlimit="10" stroke-width="2">
+                                            <path vector-effect="non-scaling-stroke" d="M10 17l5-5M10 7l5 5"></path>
+                                        </g>
+                                    </svg></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="top-rated-hotels section-padding">
+        <h1>Take a dip at these top-rated hotels</h1>
+        <div class="options">
+
+            <div class="uae country country-selected">United Arab Emirates</div>
+            <div class="spain country">Spain</div>
+            <div class="italy country">Italy</div>
+        </div>
+        <div class="main-card">
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-image">
+                        <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_267,q_40,w_400/hotelier-images/a9/f2/fc987af90585ada2587e99a3bc9ca031054856457896a2c36d4f023ed6f6.jpeg"
+                            alt="">
+                    </div>
+                    <div class="card-desc">
+                        <h1>Palace Downtown</h1>
+                        <p class="rating">
+                            <span><strong><span>9.5</span>&nbsp;-&nbsp;<!-- -->Excellent</strong>&nbsp;
+                                (<!-- -->17403<!-- -->)</span>
+
+                            <span class="card-loc">
+                                <span class="svg have-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        class="Icon_icon__1R9KC">
+                                        <path
+                                            d="M18 8.23a6 6 0 00-11.9 0A6.49 6.49 0 006 9a5.79 5.79 0 00.38 2.09l4.75 9.4a1 1 0 001.74 0l4.75-9.4A5.79 5.79 0 0018 9a6.49 6.49 0 000-.77zM12 13a4 4 0 114-4 4 4 0 01-4 4z"
+                                            fill="currentColor"></path>
+                                    </svg>
+                                </span>
+                                <span>Dubai</span>
+                            </span>
+                        </p>
+                        <p class="add">
+                            <span class="pool have-svg">
+                                <span class="svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        class="Icon_icon__1R9KC">
+                                        <g fill="currentColor">
+                                            <path
+                                                d="M15 14a2 2 0 00-2 2 1 1 0 01-2 0 2 2 0 00-4 0 .5.5 0 001 0 1 1 0 012 0 2 2 0 004 0 1 1 0 012 0 .5.5 0 001 0 2 2 0 00-2-2zM10.5 18.5a.5.5 0 00-.5.5 1 1 0 01-2 0 2 2 0 00-4 0 .5.5 0 001 0 1 1 0 012 0 2 2 0 004 0 .5.5 0 00-.5-.5zM13.5 18.5a.5.5 0 01.5.5 1 1 0 002 0 2 2 0 014 0 .5.5 0 01-1 0 1 1 0 00-2 0 2 2 0 01-4 0 .5.5 0 01.5-.5zM16.5 2A1.5 1.5 0 0015 3.5V7H8V3.5a.5.5 0 011 0v1a.5.5 0 001 0v-1a1.5 1.5 0 00-3 0v9a.5.5 0 001 0V11h7v1.5a.5.5 0 001 0v-9a.5.5 0 011 0v1a.5.5 0 001 0v-1A1.5 1.5 0 0016.5 2zM8 10V8h7v2z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span>Pool</span>
+                            </span>
+                            <span class="pool have-svg">
+                                <span class="svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        class="Icon_icon__1R9KC">
+                                        <g fill="currentColor">
+                                            <path
+                                                d="M12 6.6c1.43 1.87 3 4.33 3 5.4a3 3 0 01-6 0c0-1.07 1.57-3.53 3-5.4M12 5s-4 4.79-4 7a4 4 0 008 0c0-2.21-4-7-4-7z">
+                                            </path>
+                                            <path
+                                                d="M17 12.53a5.23 5.23 0 01-.21 1C19.43 14.12 21 15.18 21 16c0 1.22-3.51 3-9 3s-9-1.78-9-3c0-.82 1.57-1.88 4.26-2.5a5.23 5.23 0 01-.21-1c-3 .69-5 2-5 3.47 0 2.21 4.48 4 10 4s10-1.79 10-4C22 14.51 20 13.22 17 12.53z">
+                                            </path>
+                                            <path
+                                                d="M17.83 16c-.67.42-2.69 1-5.83 1s-5.16-.58-5.83-1a6.79 6.79 0 012.12-.68 5.1 5.1 0 01-.63-.89C6 14.8 5 15.36 5 16c0 1.1 3.13 2 7 2s7-.9 7-2c0-.64-1-1.2-2.66-1.57a5.1 5.1 0 01-.63.89 6.79 6.79 0 012.12.68z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span>Spa</span>
+                            </span>
+                        </p>
+                        <div class="card-btn">
+                            Check prices
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-image">
+                        <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_267,q_40,w_400/hotelier-images/a9/f2/fc987af90585ada2587e99a3bc9ca031054856457896a2c36d4f023ed6f6.jpeg"
+                            alt="">
+                    </div>
+                    <div class="card-desc">
+                        <h1>Palace Downtown</h1>
+                        <p class="rating">
+                            <span><strong><span>9.5</span>&nbsp;-&nbsp;<!-- -->Excellent</strong>&nbsp;
+                                (<!-- -->17403<!-- -->)</span>
+
+                            <span class="card-loc">
+                                <span class="svg have-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        class="Icon_icon__1R9KC">
+                                        <path
+                                            d="M18 8.23a6 6 0 00-11.9 0A6.49 6.49 0 006 9a5.79 5.79 0 00.38 2.09l4.75 9.4a1 1 0 001.74 0l4.75-9.4A5.79 5.79 0 0018 9a6.49 6.49 0 000-.77zM12 13a4 4 0 114-4 4 4 0 01-4 4z"
+                                            fill="currentColor"></path>
+                                    </svg>
+                                </span>
+                                <span>Dubai</span>
+                            </span>
+                        </p>
+                        <p class="add">
+                            <span class="pool have-svg">
+                                <span class="svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        class="Icon_icon__1R9KC">
+                                        <g fill="currentColor">
+                                            <path
+                                                d="M15 14a2 2 0 00-2 2 1 1 0 01-2 0 2 2 0 00-4 0 .5.5 0 001 0 1 1 0 012 0 2 2 0 004 0 1 1 0 012 0 .5.5 0 001 0 2 2 0 00-2-2zM10.5 18.5a.5.5 0 00-.5.5 1 1 0 01-2 0 2 2 0 00-4 0 .5.5 0 001 0 1 1 0 012 0 2 2 0 004 0 .5.5 0 00-.5-.5zM13.5 18.5a.5.5 0 01.5.5 1 1 0 002 0 2 2 0 014 0 .5.5 0 01-1 0 1 1 0 00-2 0 2 2 0 01-4 0 .5.5 0 01.5-.5zM16.5 2A1.5 1.5 0 0015 3.5V7H8V3.5a.5.5 0 011 0v1a.5.5 0 001 0v-1a1.5 1.5 0 00-3 0v9a.5.5 0 001 0V11h7v1.5a.5.5 0 001 0v-9a.5.5 0 011 0v1a.5.5 0 001 0v-1A1.5 1.5 0 0016.5 2zM8 10V8h7v2z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span>Pool</span>
+                            </span>
+                            <span class="pool have-svg">
+                                <span class="svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        class="Icon_icon__1R9KC">
+                                        <g fill="currentColor">
+                                            <path
+                                                d="M12 6.6c1.43 1.87 3 4.33 3 5.4a3 3 0 01-6 0c0-1.07 1.57-3.53 3-5.4M12 5s-4 4.79-4 7a4 4 0 008 0c0-2.21-4-7-4-7z">
+                                            </path>
+                                            <path
+                                                d="M17 12.53a5.23 5.23 0 01-.21 1C19.43 14.12 21 15.18 21 16c0 1.22-3.51 3-9 3s-9-1.78-9-3c0-.82 1.57-1.88 4.26-2.5a5.23 5.23 0 01-.21-1c-3 .69-5 2-5 3.47 0 2.21 4.48 4 10 4s10-1.79 10-4C22 14.51 20 13.22 17 12.53z">
+                                            </path>
+                                            <path
+                                                d="M17.83 16c-.67.42-2.69 1-5.83 1s-5.16-.58-5.83-1a6.79 6.79 0 012.12-.68 5.1 5.1 0 01-.63-.89C6 14.8 5 15.36 5 16c0 1.1 3.13 2 7 2s7-.9 7-2c0-.64-1-1.2-2.66-1.57a5.1 5.1 0 01-.63.89 6.79 6.79 0 012.12.68z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span>Spa</span>
+                            </span>
+                        </p>
+                        <div class="card-btn">
+                            Check prices
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-image">
+                        <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_267,q_40,w_400/hotelier-images/a9/f2/fc987af90585ada2587e99a3bc9ca031054856457896a2c36d4f023ed6f6.jpeg"
+                            alt="">
+                    </div>
+                    <div class="card-desc">
+                        <h1>Palace Downtown</h1>
+                        <p class="rating">
+                            <span><strong><span>9.5</span>&nbsp;-&nbsp;<!-- -->Excellent</strong>&nbsp;
+                                (<!-- -->17403<!-- -->)</span>
+
+                            <span class="card-loc">
+                                <span class="svg have-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        class="Icon_icon__1R9KC">
+                                        <path
+                                            d="M18 8.23a6 6 0 00-11.9 0A6.49 6.49 0 006 9a5.79 5.79 0 00.38 2.09l4.75 9.4a1 1 0 001.74 0l4.75-9.4A5.79 5.79 0 0018 9a6.49 6.49 0 000-.77zM12 13a4 4 0 114-4 4 4 0 01-4 4z"
+                                            fill="currentColor"></path>
+                                    </svg>
+                                </span>
+                                <span>Dubai</span>
+                            </span>
+                        </p>
+                        <p class="add">
+                            <span class="pool have-svg">
+                                <span class="svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        class="Icon_icon__1R9KC">
+                                        <g fill="currentColor">
+                                            <path
+                                                d="M15 14a2 2 0 00-2 2 1 1 0 01-2 0 2 2 0 00-4 0 .5.5 0 001 0 1 1 0 012 0 2 2 0 004 0 1 1 0 012 0 .5.5 0 001 0 2 2 0 00-2-2zM10.5 18.5a.5.5 0 00-.5.5 1 1 0 01-2 0 2 2 0 00-4 0 .5.5 0 001 0 1 1 0 012 0 2 2 0 004 0 .5.5 0 00-.5-.5zM13.5 18.5a.5.5 0 01.5.5 1 1 0 002 0 2 2 0 014 0 .5.5 0 01-1 0 1 1 0 00-2 0 2 2 0 01-4 0 .5.5 0 01.5-.5zM16.5 2A1.5 1.5 0 0015 3.5V7H8V3.5a.5.5 0 011 0v1a.5.5 0 001 0v-1a1.5 1.5 0 00-3 0v9a.5.5 0 001 0V11h7v1.5a.5.5 0 001 0v-9a.5.5 0 011 0v1a.5.5 0 001 0v-1A1.5 1.5 0 0016.5 2zM8 10V8h7v2z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span>Pool</span>
+                            </span>
+                            <span class="pool have-svg">
+                                <span class="svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        class="Icon_icon__1R9KC">
+                                        <g fill="currentColor">
+                                            <path
+                                                d="M12 6.6c1.43 1.87 3 4.33 3 5.4a3 3 0 01-6 0c0-1.07 1.57-3.53 3-5.4M12 5s-4 4.79-4 7a4 4 0 008 0c0-2.21-4-7-4-7z">
+                                            </path>
+                                            <path
+                                                d="M17 12.53a5.23 5.23 0 01-.21 1C19.43 14.12 21 15.18 21 16c0 1.22-3.51 3-9 3s-9-1.78-9-3c0-.82 1.57-1.88 4.26-2.5a5.23 5.23 0 01-.21-1c-3 .69-5 2-5 3.47 0 2.21 4.48 4 10 4s10-1.79 10-4C22 14.51 20 13.22 17 12.53z">
+                                            </path>
+                                            <path
+                                                d="M17.83 16c-.67.42-2.69 1-5.83 1s-5.16-.58-5.83-1a6.79 6.79 0 012.12-.68 5.1 5.1 0 01-.63-.89C6 14.8 5 15.36 5 16c0 1.1 3.13 2 7 2s7-.9 7-2c0-.64-1-1.2-2.66-1.57a5.1 5.1 0 01-.63.89 6.79 6.79 0 012.12.68z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span>Spa</span>
+                            </span>
+                        </p>
+                        <div class="card-btn">
+                            Check prices
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="explore">
+            Explore more stays
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    class="Icon_icon__1R9KC">
+                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2">
+                        <path vector-effect="non-scaling-stroke" d="M13 7l5 5M13 17l5-5M6 12h12"></path>
+                    </g>
+                </svg>
+            </span>
+        </div>
+    </section>
+
+
+    <section class="popular-searches section-padding">
+        <h1>Popular Searches</h1>
+        <div class="options">
+
+            <div class="destination search search-selected">Cites</div>
+            <div class="destination search">Destination</div>
+        </div>
+        <div class="cards">
+
+            <div class="card-nobody">
+                <div class="img">
+                    <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/64/98/64981_v33.jpeg"
+                        alt="">
+                </div>
+                <div class="card-overlay">
+                    <div class="text">
+                        <h3 class="highlight">Mumbai</h3>
+                        <h3><span class="highlight">5,543</span>
+                            Hotels</h3>
+                        <h3>Avg.<span class="highlight">₹4,052</span>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card-nobody">
+                <div class="img">
+                    <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/64/98/64981_v33.jpeg"
+                        alt="">
+                </div>
+                <div class="card-overlay">
+                    <div class="text">
+                        <h3 class="highlight">Mumbai</h3>
+                        <h3><span class="highlight">5,543</span>
+                            Hotels</h3>
+                        <h3>Avg.<span class="highlight">₹4,052</span>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card-nobody">
+                <div class="img">
+                    <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/64/98/64981_v33.jpeg"
+                        alt="">
+                </div>
+                <div class="card-overlay">
+                    <div class="text">
+                        <h3 class="highlight">Mumbai</h3>
+                        <h3><span class="highlight">5,543</span>
+                            Hotels</h3>
+                        <h3>Avg.<span class="highlight">₹4,052</span>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card-nobody">
+                <div class="img">
+                    <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/64/98/64981_v33.jpeg"
+                        alt="">
+                </div>
+                <div class="card-overlay">
+                    <div class="text">
+                        <h3 class="highlight">Mumbai</h3>
+                        <h3><span class="highlight">5,543</span>
+                            Hotels</h3>
+                        <h3>Avg.<span class="highlight">₹4,052</span>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="benefits section-padding">
+        <div class="benefit-card">
+            <div class="b-1">
+                <img src="https://imgcy.trivago.com//hardcodedimages/homepage-landing/usp/SearchDesktop.svg" alt="">
+            </div>
+            <div class="desc">
+                <h1>
+                    Search simply
+                </h1>
+                <span>
+                    Search through 5 million hotels in just a few seconds.
+                </span>
+            </div>
+        </div>
+
+
+
+
+        <div class="benefit-card">
+            <div class="b-1">
+                <img src="	https://imgcy.trivago.com//hardcodedimages/homepage-landing/usp/CompareDesktop.svg" alt="">
+            </div>
+            <div class="desc">
+                <h1>
+                    Compare confidently
+                </h1>
+                <span>
+                    Compare hotel prices from 100s of sites at once.
+                </span>
+            </div>
+        </div>
+
+
+
+
+        <div class="benefit-card">
+            <div class="b-1">
+                <img src="	https://imgcy.trivago.com//hardcodedimages/homepage-landing/usp/SaveDesktop.svg" alt="">
+            </div>
+            <div class="desc">
+                <h1>
+                    Save big
+                </h1>
+                <span>
+                    Discover a great deal to book on our partner sites.
+                </span>
+            </div>
+        </div>
+    </section>
+    <section class="section-padding app-and-qr">
+        <main>
+            <div>
+                <h2>
+                    Download the trivago app
+                </h2>
+                <h4>
+                    Easily compare hotel prices for savings on the go.
+                </h4>
+                <div class="app-qr-app">
+                    <div class="play-store">
+
+                        <img src="https://imgcy.trivago.com//hardcodedimages/google_play_button.svg" alt="">
+                        <img src="https://imgcy.trivago.com//hardcodedimages/ios_button.svg" alt="" srcset="">
+                    </div>
+                    <img class="qr" src="https://www.trivago.in/_static/images/2023hai/app_install_qr_code.png" alt=""
+                        srcset="">
+
+                </div>
+            </div>
+
+            <div class="img-circle circle">
+                <img alt="" src="https://www.trivago.in/_static/images/app_banner_08112023.avif">
+                </img>
+            </div>
+        </main>
+    </section>
+
+    <section class="section-padding Searches">
+        <main>
+            <div class="popular-search parts">
+                <h2>More popular searches</h2>
+                <div class="cities">
+                    <div class="col1">
+                        <p>Hotels in Lonavala
+                        </p>
+                        <p>Hotels in Chennai
+                        </p>
+                        <p>Hotels in Pune
+                        </p>
+                        <p>Hotels in Varanasi
+                        </p>
+                        <p>Hotels in Singapore
+                        </p>
+                        <p>Hotels in Chandigarh</p>
+                        <p> Hotels in Amritsar
+                        </p>
+                        <p>Hotels in Singapore
+                        </p>
+                        <p>Hotels in Chandigarh</p>
+                        <p> Hotels in Amritsar
+                        </p>
+                        <p>Hotels in Singapore
+                        </p>
+                        <p>Hotels in Chandigarh</p>
+                        <p> Hotels in Amritsar
+                        </p>
+                        <p>Hotels in Singapore
+                        </p>
+                        <p>Hotels in Chandigarh</p>
+                        <p> Hotels in Amritsar
+                        </p>
+                        <p>Hotels in Singapore
+                        </p>
+                        <p>Hotels in Chandigarh</p>
+                        <p> Hotels in Amritsar
+                        </p>
+                        <p>Hotels in Singapore
+                        </p>
+                        <p>Hotels in Chandigarh</p>
+                        <p> Hotels in Amritsar
+                        </p>
+                    </div>
+                    <div class="col2">
+                        <p>Hotels in Hyderabad
+                        </p>
+                        <p>Hotels in Gurgaon
+                        </p>
+                        <p>Hotels in Agra
+                        </p>
+                        <p>Hotels in Lucknow
+                        </p>
+                        <p>Hotels in Mussoorie
+                        </p>
+                        <p>Hotels in Puri
+                        </p>
+                        <p>Hotels in Nainital
+
+                        </p>
+                        <p>Hotels in Singapore
+                        </p>
+                        <p>Hotels in Chandigarh</p>
+                        <p> Hotels in Amritsar
+                        </p>
+                        <p>Hotels in Singapore
+                        </p>
+                        <p>Hotels in Chandigarh</p>
+                        <p> Hotels in Amritsar
+                        </p>
+                        <p>Hotels in Singapore
+                        </p>
+                        <p>Hotels in Chandigarh</p>
+                        <p> Hotels in Amritsar
+                        </p>
+                        <p>Hotels in Singapore
+                        </p>
+                        <p>Hotels in Chandigarh</p>
+                        <p> Hotels in Amritsar
+                        </p>
+                        <p>Hotels in Singapore
+                        </p>
+                        <p>Hotels in Chandigarh</p>
+                        <p> Hotels in Amritsar
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="international-search parts">
+                <h2>trivago international sites</h2>
+                <div class="cities">
+                    <div class="col1">
+                        <p><span>trivago </span> <b>UAE
+                            </b></p>
+                        <p><span>trivago </span> <b>Argentina
+                            </b></p>
+                        <p><span>trivago </span> <b>Österreich
+                            </b></p>
+                        <p><span>trivago </span> <b>Australia
+                            </b></p>
+                        <p><span>trivago </span> <b>België
+                            </b></p>
+                        <p><span>trivago </span> <b>България
+                            </b></p>
+                        <p><span>trivago </span> <b>Brasil
+                            </b></p>
+                        <p><span>trivago </span> <b>Canada
+                            </b></p>
+                        <p><span>trivago </span> <b>Schweiz
+                            </b></p>
+                        <p><span>trivago </span> <b>Chile
+                            </b></p>
+                        <p><span>trivago </span> <b>Colombia
+                            </b></p>
+                        <p><span>trivago </span> <b>Česko
+                            </b></p>
+                        <p><span>trivago </span> <b>Deutschland
+                            </b></p>
+                        <p><span>trivago </span> <b>Danmark
+                            </b></p>
+                        <p><span>trivago </span> <b>Ecuador
+                            </b></p>
+                        <p><span>trivago </span> <b>España
+                            </b></p>
+                        <p><span>trivago </span> <b>Suomi
+                            </b></p>
+                        <p><span>trivago </span> <b>France
+                            </b></p>
+                        <p><span>trivago </span> <b>Ελλάδα
+                            </b></p>
+                        <p><span>trivago </span> <b>香港
+                            </b>/p>
+                        <p><span>trivago </span> <b>Hrvatska
+                            </b></p>
+                        <p><span>trivago </span> <b>Magyarország
+                            </b></p>
+                        <p><span>trivago </span> <b>Indonesia
+                            </b></p>
+                        <p><span>trivago </span> <b>Ireland
+                            </b></p>
+                        <p><span>trivago </span> <b>ישראל
+                            </b></p>
+                        <p><span>trivago </span> <b>India
+                            </b></p>
+                        
+                    </div>
+                    <div class="col2">
+                        <p><span>trivago </span> <b>Italia
+                        </b></p>
+                    <p><span>trivago </span> <b>日本
+                        </b>/p>
+                    <p><span>trivago </span> <b>한국
+                        </b></p>
+                    <p><span>trivago </span> <b>México
+                        </b></p>
+                    <p><span>trivago </span> <b>Malaysia
+                        </b></p>
+                    <p><span>trivago </span> <b>Nederland
+                        </b></p>
+                    <p><span>trivago </span> <b>Norge
+                        </b></p>
+                    <p><span>trivago </span> <b>New Zeal</b>and
+                    </p>
+                    <p><span>trivago </span> <b>Perú
+                        </b></p>
+                    <p><span>trivago </span>
+                        <b>Pilipinas
+                        </b>
+                    </p>
+                    <p><span>trivago </span> <b>Polska
+                        </b></p>
+                    <p><span>trivago </span> <b>Portugal
+                        </b></p>
+                    <p><span> trivago</span><b>
+                            Româ</b>nia
+                    </p>
+                    <p><span> trivago</span> <b>Srbija
+                        </b></p>
+                    <p><span>trivago </span> <b>Sverige
+                        </b></p>
+                    <p><span>trivago </span>
+                        <b>Singapore
+                        </b>
+                    </p>
+                    <p><span>trivago </span> <b>العالم
+                            العربي
+                        </b></p>
+                    <p><span>trivago </span>
+                        <b>Slovenija
+                        </b>
+                    </p>
+                    <p><span>trivago </span>
+                        <b>Slovensko
+                        </b>
+                    </p>
+                    <p><span>trivago </span>
+                        <b>ประเทศไทย
+                        </b>
+                    </p>
+                    <p><span>trivago </span> <b>Türkiye
+                        </b></p>
+                    <p><span>trivago </span> <b>台灣
+                        </b></p>
+                    <p><span>trivago </span>
+                        <b>United Kingdom
+                    </p>
+                    </b>
+                    <p><span>trivago </span> <b>USA
+                        </b></p>
+                    <p><span>trivago </span>
+                        <b>Uruguay
+                        </b>
+                    </p>
+                    <p><span>trivago </span>
+                        <b>Việt Nam
+                        </b>
+                    </p>
+                    <p><span>trivago </span>
+                        <b>South Africa</b>
+
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+</body>
+
+</html>

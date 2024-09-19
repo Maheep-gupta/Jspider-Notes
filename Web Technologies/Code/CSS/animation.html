@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loader</title>
+</head>
+<style>
+    .parent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .box1,.box2{
+        height: 10px;
+        width: 500px;
+        background-color: grey;
+        border-radius: 20px;
+    }
+    .loader{
+        width: 0px;
+        background-color: black;
+        height: 10px;
+        animation-name: loader;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        border-radius: 20px;
+    }
+    
+    @keyframes loader {
+        0%{
+            width:0%;
+        }
+        25%{
+            width: 25%;
+        }
+        50%{
+            width: 50%;
+        }
+        75%{
+            width: 75%;
+        }
+        100%{
+            width: 100%;
+        }
+    }
+    @keyframes spinner {
+        0%{
+            transform: rotate(0deg);
+        }
+        
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+    .circle-loader{
+        height: 100px;
+        width: 100px;
+        animation-name: spinner;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        border: 10px solid grey;
+        border-bottom: 10px solid black;
+        border-radius: 100%;
+        
+    }
+</style>
+
+<body>
+    <div class="parent">
+        <div class="box1">
+            <div class="loader"></div>
+        </div>
+
+        
+        <div class="circle-loader"></div>
+    </div>
+</body>
+
+</html>

@@ -27,13 +27,15 @@ nav{
 }
 ul{
     display: flex;
-    /* justify-content: space-between; */
     font-size: 21px;
     font-family: "Open Sans", Arial, sans-serif;
     align-items: center;
     list-style-type: none;
     padding: 20px;
     gap: 20px;
+}
+li{
+    cursor: pointer;
 }
 li.active{
     color: #e06464;
