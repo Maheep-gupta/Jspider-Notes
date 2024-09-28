@@ -1,4 +1,4 @@
-let arr = [1, 4, 5, 'looo', 'aaya mai', 'oh hoo', 'aap to so rhe']
+let arr = [1, 4, 5, 'looo', 'aaya mai', 'oh hoo', 'aap to so rhe']``
 console.log(arr);
 
 // arr.push("uth jaa bhai ")

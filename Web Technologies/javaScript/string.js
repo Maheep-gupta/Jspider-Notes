@@ -20,7 +20,7 @@ console.log(toLowerCase);
 let toUpperCase = str.toUpperCase();
 console.log(toUpperCase);
 
-let slice=str.slice(2.7)
+let slice=str.slice(2,7)
 console.log(slice);
 
 let split=str.split(" ")
